@@ -1,0 +1,9 @@
+node:
+  build: .
+  command: npm start
+  volumes:
+    - ./:/node_app
+    - /node_app/node_modules
+  ports:
+    - '8000:1234'
+    - '37427:37427'
