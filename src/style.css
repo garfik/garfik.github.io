@@ -1,3 +1,39 @@
 .cv {
-    color: #111;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.main-header {
+    h1 {
+        letter-spacing: 2px;
+    }
+
+    .avatar > img {
+        border-radius: 5px;
+    }
+}
+
+.social {
+    white-space: nowrap;
+}
+
+.b-experience {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #cacaca;
+
+    &:last-child {
+        border-bottom: none;
+    }
+
+    h5 {
+        margin-bottom: 0;
+    }  
+    addr {
+        font-size: 75%;
+        color: grey;
+        font-weight: bold;
+    }
 }
