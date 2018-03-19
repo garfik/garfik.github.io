@@ -20,6 +20,27 @@ ul {
     white-space: nowrap;
 }
 
+@media (max-width: 768px) {
+    .b-experience {
+        h5 > small {
+            display: block;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .social {
+        text-align: left !important;
+    }
+}
+
+@media print {
+    a {
+        text-decoration: none !important;
+        color: #212529;
+    }
+}
+
 .b-experience {
     margin-bottom: 15px;
     border-bottom: 1px solid #cacaca;
